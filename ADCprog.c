@@ -39,7 +39,7 @@ void ADC_INIT()
 	
 }
 
-u8 ADC_READ(u8 channel_num)
+u16 ADC_READ(u8 channel_num)
 {
 	 /* channel number must be from 0 --> 7 */
 	 /* clear first 5 bits in the ADMUX (channel number MUX4:0 bits) before set the required channel */
